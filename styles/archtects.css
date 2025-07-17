@@ -8,3 +8,16 @@
     font-weight: 400;
     font-weight: normal;
 }
+/* shared styles */
+
+/* header related styles */
+
+/* navbar related styles */
+.navbar{
+    display:flex;
+
+}
+
+.vab-links{
+    display: flex;
+}
