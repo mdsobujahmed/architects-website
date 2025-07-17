@@ -31,6 +31,10 @@
     border-radius: 8px;
     border: none;
 }
+main{
+    max-width: 1440px;
+    margin: 0 auto;
+}
 
 /* header related styles */
 
@@ -69,6 +73,14 @@
 }
 .banner-image{
     width: 100%;
+}
+.teams{
+    align-items: center;
+}
+.team-img-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
 }
 @media screen and(max-width:576px) {
     .navbar, .nav-link{
