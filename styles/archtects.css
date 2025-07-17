@@ -9,15 +9,30 @@
     font-weight: normal;
 }
 /* shared styles */
+.display-flex{
+      display:flex;
+}
+.text-gray{
+    color: #424242;
+
+}
+.text-light-gray{
+    color: #727272;
+}
 
 /* header related styles */
 
 /* navbar related styles */
 .navbar{
-    display:flex;
+  
 
 }
 
-.vab-links{
-    display: flex;
+.nav-item{
+    list-style: none;
+    margin-right: 30px;
+}
+.nav-link{
+    text-decoration: none;
+    font-weight: 500;
 }
