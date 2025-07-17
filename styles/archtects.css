@@ -28,7 +28,12 @@
 /* navbar related styles */
 .navbar{
   justify-content: space-between;
+  align-items: center;
 
+}
+.brand{
+    font-weight: 700;
+    font-size: 3rem;
 }
 
 .nav-item{
