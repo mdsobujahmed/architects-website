@@ -19,12 +19,15 @@
 .text-light-gray{
     color: #727272;
 }
+.bg-light{
+    background-color: rgba(225, 144, 14,0.1);
+}
 
 /* header related styles */
 
 /* navbar related styles */
 .navbar{
-  
+  justify-content: space-between;
 
 }
 
@@ -35,4 +38,8 @@
 .nav-link{
     text-decoration: none;
     font-weight: 500;
+}
+.navbar, .banner{
+    max-width: 1440px;
+    margin: 0 auto;
 }
