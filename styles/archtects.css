@@ -180,6 +180,12 @@ main > section{
     .sponsor-companies img {
         filter: grayscale(100%);
     }
+    .styles{
+        text-align: center;
+        padding: normal;
+        background-color: #FFF4E7;
+        color: black;
+    }
 @media screen and(max-width:576px) {
     .navbar, .nav-link,.features, .teams{
         flex-direction: column;
